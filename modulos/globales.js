@@ -10,3 +10,7 @@ let intervalo = setInterval(function () {
 setImmediate(function () {
     console.log('Adios');
 })
+
+console.log(__dirname);
+
+console.log(__filename);
